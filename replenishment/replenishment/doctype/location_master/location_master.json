@@ -1,0 +1,86 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2025-05-16 20:49:05.274687",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "type",
+  "storage_bin",
+  "storage_type",
+  "wh_block",
+  "column_break_qgwk",
+  "storage_level",
+  "typee",
+  "storage_typee"
+ ],
+ "fields": [
+  {
+   "fieldname": "type",
+   "fieldtype": "Data",
+   "label": "Type"
+  },
+  {
+   "fieldname": "storage_bin",
+   "fieldtype": "Data",
+   "label": "Storage Bin",
+   "unique": 1
+  },
+  {
+   "fieldname": "storage_type",
+   "fieldtype": "Data",
+   "label": "Storage Type"
+  },
+  {
+   "fieldname": "wh_block",
+   "fieldtype": "Data",
+   "label": "WH Block"
+  },
+  {
+   "fieldname": "storage_level",
+   "fieldtype": "Data",
+   "label": "Storage Level"
+  },
+  {
+   "fieldname": "typee",
+   "fieldtype": "Data",
+   "label": "Type"
+  },
+  {
+   "fieldname": "storage_typee",
+   "fieldtype": "Data",
+   "label": "Storage Type"
+  },
+  {
+   "fieldname": "column_break_qgwk",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-05-17 21:49:34.590581",
+ "modified_by": "Administrator",
+ "module": "Replenishment",
+ "name": "Location Master",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

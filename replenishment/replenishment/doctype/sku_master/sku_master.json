@@ -1,0 +1,85 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-05-18 13:37:28.054523",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "material",
+  "description",
+  "velocity_fast__medium_slow",
+  "type",
+  "pick_face_location_dest_bin",
+  "max_capacity_at_pick_face",
+  "min_capacity_at_pick_face",
+  "remark"
+ ],
+ "fields": [
+  {
+   "fieldname": "material",
+   "fieldtype": "Data",
+   "label": "Material"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "label": "Description"
+  },
+  {
+   "fieldname": "velocity_fast__medium_slow",
+   "fieldtype": "Data",
+   "label": "Velocity (Fast / Medium/ Slow)"
+  },
+  {
+   "fieldname": "type",
+   "fieldtype": "Data",
+   "label": "Type"
+  },
+  {
+   "fieldname": "pick_face_location_dest_bin",
+   "fieldtype": "Data",
+   "label": "Pick Face Location (Dest. Bin)"
+  },
+  {
+   "fieldname": "max_capacity_at_pick_face",
+   "fieldtype": "Data",
+   "label": "Max Capacity at Pick Face"
+  },
+  {
+   "fieldname": "min_capacity_at_pick_face",
+   "fieldtype": "Data",
+   "label": "Min Capacity at Pick Face"
+  },
+  {
+   "fieldname": "remark",
+   "fieldtype": "Data",
+   "label": "Remark"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-05-18 13:41:09.857252",
+ "modified_by": "Administrator",
+ "module": "Replenishment",
+ "name": "SKU Master",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

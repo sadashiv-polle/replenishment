@@ -1,0 +1,71 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2025-05-17 19:34:12.409270",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "location_master_section",
+  "column_break_epnt",
+  "upload_location_master",
+  "status",
+  "log"
+ ],
+ "fields": [
+  {
+   "fieldname": "upload_location_master",
+   "fieldtype": "Attach",
+   "label": "Upload Location Master"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "status",
+   "options": "Pending\nCompleted\nFailed",
+   "read_only": 1
+  },
+  {
+   "fieldname": "log",
+   "fieldtype": "Text",
+   "label": "log",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_epnt",
+   "fieldtype": "Column Break",
+   "read_only": 1
+  },
+  {
+   "fieldname": "location_master_section",
+   "fieldtype": "Section Break",
+   "label": "Location Master"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-05-17 22:00:42.535413",
+ "modified_by": "Administrator",
+ "module": "Replenishment",
+ "name": "Upload Files Custom",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
