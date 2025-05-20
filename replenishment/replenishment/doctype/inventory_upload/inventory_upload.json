@@ -1,41 +1,45 @@
 {
  "actions": [],
  "allow_rename": 1,
- "creation": "2025-05-18 13:43:02.829730",
+ "creation": "2025-05-19 15:55:36.416678",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "upload_files_customs",
+  "upload_inventory_file",
   "status",
-  "log"
+  "log",
+  "output_file"
  ],
  "fields": [
   {
-   "fieldname": "upload_files_customs",
+   "fieldname": "upload_inventory_file",
    "fieldtype": "Attach",
-   "label": "Upload Files Customs"
+   "label": "Upload Inventory File"
   },
   {
    "fieldname": "status",
    "fieldtype": "Select",
    "label": "Status",
-   "options": "Pending\nCompleted\nFailed",
-   "read_only": 1
+   "options": "Draft\nCompleted\nFailed"
   },
   {
    "fieldname": "log",
-   "fieldtype": "Text",
-   "label": "Log",
-   "read_only": 1
+   "fieldtype": "Long Text",
+   "label": "Log"
+  },
+  {
+   "fieldname": "output_file",
+   "fieldtype": "Attach",
+   "label": "Output File"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-05-18 16:32:04.123856",
- "modified_by": "jashrajpolle@gmail.com",
+ "modified": "2025-05-19 15:58:34.254557",
+ "modified_by": "Administrator",
  "module": "Replenishment",
- "name": "SKU Upload",
+ "name": "Inventory Upload",
  "owner": "Administrator",
  "permissions": [
   {
